@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://roggeo.github.io/about/">
+    <link rel="canonical" href="https://roggeo.github.io/search/">
 
     <!-- RSS -->
     <link rel="alternate" type="application/atom+xml" title="Roggeo" href="https://roggeo.github.io/feed.xml"/>
@@ -32,23 +32,23 @@
 
     <!-- seo tags -->
     <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>About | Roggeo</title>
+<title>Search | Roggeo</title>
 <meta name="generator" content="Jekyll v3.8.6" />
-<meta property="og:title" content="About" />
+<meta property="og:title" content="Search" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="The passenger on code universe" />
 <meta property="og:description" content="The passenger on code universe" />
-<link rel="canonical" href="https://roggeo.github.io/about/" />
-<meta property="og:url" content="https://roggeo.github.io/about/" />
+<link rel="canonical" href="https://roggeo.github.io/search/" />
+<meta property="og:url" content="https://roggeo.github.io/search/" />
 <meta property="og:site_name" content="Roggeo" />
 <meta property="og:image" content="https://roggeo.github.io/assets/img/roggeo.svg" />
 <script type="application/ld+json">
-{"@type":"WebSite","url":"https://roggeo.github.io/about/","headline":"About","name":"Roggeo","image":"https://roggeo.github.io/assets/img/roggeo.svg","description":"The passenger on code universe","@context":"https://schema.org"}</script>
+{"@type":"WebPage","url":"https://roggeo.github.io/search/","headline":"Search","image":"https://roggeo.github.io/assets/img/roggeo.svg","description":"The passenger on code universe","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     <!-- Manual seo tags -->
     <!--
-    <title>About | Roggeo</title>
+    <title>Search | Roggeo</title>
     <meta name="description" content="">
     -->
 </head>
@@ -144,22 +144,41 @@
 
     <div class="content">
       <article class="feature-image">
-  <header id="main" style="background-image: url('/assets/img/pexels/astronaut-alone.jpeg')">
-    <h1 id="About" class="title">
-        <span>About</span>
+  <header id="main" style="background-image: url('/assets/img/pexels/search-map.jpeg')">
+    <h1 id="Search" class="title">
+        <span>Search</span>
     </h1>
     
+    
+    <h2 class="subtitle">What are you looking for?</h2>
     
       
   </header>
   <section class="post-content">
   
-	<p>Type on Strap is based on Type Theme, a free and open-source theme for <a href="http://jekyllrb.com/">Jekyll</a>, licensed under the MIT License.</p>
+	<!-- Html Elements for Search -->
+<input type="text" id="search-input" placeholder="Enter keywords..." class="search-bar">
+<br>
+<br>
+<ul id="results-container"></ul>
 
-<p>Head over to the <a href="https://github.io/sylhare/Type-on-Strap">theme’s documentation</a> for much more information about Type on Strap or to install this theme on your own Jekyll site.</p>
+<section>
+    <!-- Script pointing to jekyll-search.js -->
+    <script src="/assets/js/vendor/simple-jekyll-search.min.js" type="text/javascript"></script>
 
-<p>This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.</p>
-
+    <script type="text/javascript">
+        SimpleJekyllSearch({
+            searchInput: document.getElementById('search-input'),
+            resultsContainer: document.getElementById('results-container'),
+            json: '/assets/data/search.json',
+            searchResultTemplate: '<div class="search-title"><a href="{url}"><h3> {title}</h3></a><div class="meta">{date} <div class="right"><i class="fa fa-tag"></i> {tags}</div></div><p>{excerpt}</p></div><hr> ',
+            noResultsText: 'No results found',
+            limit: 10,
+            fuzzy: false,
+            exclude: []
+        })
+    </script>
+</section>
 
   
   </section>
@@ -171,21 +190,7 @@
 
 
 <footer>
-  <div class="tag-list">
-    
-      <div class="meta">Tags</div>
-    
-
-    
-    <a class="button" href="/tags#About">
-      <p><i class="fa fa-tag fa-fw"></i> About</p>
-    </a>
-    
-    <a class="button" href="/tags#Archive">
-      <p><i class="fa fa-tag fa-fw"></i> Archive</p>
-    </a>
-    
-  </div>
+  <div class="tag-list"></div>
 </footer>
 
     

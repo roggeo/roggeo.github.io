@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="228.68584"
+   height="228.68584"
+   viewBox="0 0 60.506463 60.506459"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="Logo Roggeo.svg"
+   inkscape:version="0.92.4 (33fec40, 2019-01-16)"
+   inkscape:export-filename="C:\Users\geovani\Documents\Arts\logo roggeo.png"
+   inkscape:export-xdpi="56.287838"
+   inkscape:export-ydpi="56.287838">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="68.734058"
+     inkscape:cy="168.93885"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1360"
+     inkscape:window-height="678"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-72.421308,-237.84206)">
+    <g
+       id="g1775"
+       transform="matrix(0.99531485,0,0,0.99531485,0.48104611,1.2560679)">
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#00112b;fill-opacity:1;stroke:none;stroke-width:2.50125384;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         d="m 102.67454,237.84206 c -16.708392,2e-5 -30.253214,13.54484 -30.253232,30.25323 1.8e-5,16.70839 13.54484,30.25321 30.253232,30.25323 16.70839,-2e-5 30.25321,-13.54484 30.25323,-30.25323 -2e-5,-16.70839 -13.54484,-30.25321 -30.25323,-30.25323 z"
+         id="path1760"
+         inkscape:export-xdpi="56.287838"
+         inkscape:export-ydpi="56.287838" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path1770"
+         d="m 81.561,246.43787 c -0.961281,0.93728 -1.858627,1.93864 -2.688832,2.99606 l 30.834192,10.10728 a 4.8398753,4.8398753 0 0 0 -0.0389,0.5802 4.8398753,4.8398753 0 0 0 0.12782,1.08083 l -12.431935,7.57911 a 4.8398753,4.8398753 0 0 0 -1.823228,-0.3595 4.8398753,4.8398753 0 0 0 -4.83958,4.84035 4.8398753,4.8398753 0 0 0 4.83958,4.83958 4.8398753,4.8398753 0 0 0 1.832585,-0.36418 l 22.715468,15.08958 c 1.05483,-0.7441 2.06379,-1.54936 3.01323,-2.41901 l -23.07652,-15.33288 a 4.8398753,4.8398753 0 0 0 0.3556,-1.81309 4.8398753,4.8398753 0 0 0 -0.34625,-1.79203 l 11.90166,-7.25548 a 4.8398753,4.8398753 0 0 0 2.57108,0.74709 4.8398753,4.8398753 0 0 0 4.83958,-4.84037 4.8398753,4.8398753 0 0 0 -4.83958,-4.83958 4.8398753,4.8398753 0 0 0 -2.93136,0.9935 z"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.50125384;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" />
+    </g>
+  </g>
+</svg>
